@@ -1,0 +1,124 @@
+header{
+    background:#0C0B07;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    text-align: center;
+}
+
+nav li{ 
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color:#CCCCCC;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.slogan{
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    position:absolute;
+    top: 155px;
+    left: 300px;
+}
+
+.caixa {
+    width: 940px;
+    height: 8px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titulo{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#subtitulo{
+    text-align: center;
+}
+
+body{
+    height: 100%;
+    
+    margin-bottom: -50%;
+}
+
+form{
+    background-color: #f2cb57;
+    width: 50%;
+    border: 1px solid #C78C19;
+    border-radius: 10px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    
+}
+
+.botão{
+    background-color: #C78C19;
+    color:#000000;
+    display:inline;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 760px;
+    right: 380px;
+}
+
+div{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+html{
+    height: 100%;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.botao{
+   margin-top: 25px;
+}
+
+.rodapé{
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    top: 850px;
+    height: 60px;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    left: 0px;
+}
